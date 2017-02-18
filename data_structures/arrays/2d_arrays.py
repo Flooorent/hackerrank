@@ -1,4 +1,4 @@
-#!usr/bin/python
+#!/usr/bin/python
 
 def generate_entries(i, j):
     return [(i-1, j-1), (i-1, j), (i-1, j+1), (i, j), (i+1, j-1), (i+1, j), (i+1, j+1)]
